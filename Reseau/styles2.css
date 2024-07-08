@@ -1,0 +1,158 @@
+/** general css **/
+
+body {
+    background-color:#000000;
+    font-family: Arial, sans-serif;
+}
+
+ul#navbar {
+    list-style-type: none;
+    margin: 0;
+    left: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+
+li {
+    line-height: 25px;
+}
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 170%;
+    text-align: center;
+}
+
+h3{
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: center;
+}
+
+h3.big {
+    font-size: 150%;
+}
+
+a {
+    align-items: center; 
+}
+
+.button {
+    border:0.16em solid #000000;
+    border-radius:2em;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.column-maps {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 280px;
+    border-radius: 1px;
+    border:solid;
+    overflow: hidden;
+}
+.column-characters {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 700px;
+    border-radius: 1px;
+    border:solid;
+    overflow: hidden;
+}
+
+#map {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    max-width: 367px;
+    height: auto;
+}
+
+#emblem {
+    display: block;
+    margin-left: 33%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    max-width: 200px;
+    height: auto;
+}
+
+#characters {
+    margin-left: 100px;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 650px;
+}
+
+p#maps{
+    margin-left: 35%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.footer {
+    text-align: center;
+}
+  
+p.footer {
+    margin-left: unset;
+}
+
+#right {
+    float:right;
+}
+
+@media (max-width: 1700px) {
+    #characters {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .column-maps, .column-characters {
+      width: 100%;
+      overflow: auto;
+    }
+    #characters {
+        margin-left: unset;
+    }
+}

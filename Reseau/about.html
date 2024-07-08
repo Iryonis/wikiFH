@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>À propos</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <meta name = "author" content="Guilhem BONNEFOUS" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About page">
+    <meta name="keywords" content="HTML5, CSS, JavaScript, PHP">
+    <link rel="stylesheet" href="./styles.css">
+    <script type = "text/javascript" src ="./script.js"></script>
+</head>
+<ul id = "navbar">
+    <li class = "navbar"><a href="./index.html">Accueil</a></li>
+    <li class = "navbar"><a href="./ashfeld.php">Ashfeld</a></li>
+    <li class = "navbar"><a href="./valkenheim.php">Valkenheim</a></li>
+    <li class = "navbar"><a href="./myre.php">Myre</a></li>
+    <li class = "navbar"><a href="./wulin.php">Wu Lin</a></li>
+    <li class = "navbar"><a href="./outlanders.php">Les Étrangers</a></li>
+    <li id = "right" class = "navbar"><a class = "active" href="./about.html">À propos</a></li>
+</ul>
+
+<body>
+<h1 id="top">À propos</h1>
+<h3>Qui suis-je ?</h3>
+<p>Je me nomme Guilhem Bonnefous, et je suis un étudiant en L2 informatique à l'Université de Bordeaux. Lors du TP8 de l'UE "Réseau", il nous était demandé de créer un site web sur une de nos passions, en utilisant les langages HTML, CSS, Javascript et PHP.<br>
+J'ai créé ce site en quelques jours, en partant de bases dans ces langages, mais en apprenant aussi beaucoup. Si vous souhaitez me contacter, <a onclick="copy()"> cliquez ici</a>.</p>
+<br>
+<h3>Propriété du site :</h3>
+<p>Le site web a été réalisé par mes soins et m'appartient. Néanmoins, les images, textes et l'univers présentés ne m'appartiennent pas.<br>
+Les images proviennent de Google images, et plus précisément des wikis For Honor ou des artistes ayant travaillés, ou non, sur le jeu ; on retrouve notamment : <a class = "name" href='https://www.artstation.com/ldurand' target="_blank"> Laurie Durand</a>, <a class = "name" href='https://www.artstation.com/richardcourt' target="_blank"> Richard Court</a>, <a class = "name" href='https://www.artstation.com/carlleonross' target="_blank"> Carl Ross</a>, <a class = "name" href='https://www.artstation.com/charlesfaubert' target="_blank"> Charles Faubert</a>, <a class = "name" href='https://www.artstation.com/ch_aos' target="_blank"> Alexandre Voyer</a>, <a class = "name" href='https://www.artstation.com/jyau' target="_blank"> Joanne Yau</a>, <a class = "name" href='https://www.artstation.com/sixe' target="_blank"> Jessyca Jessyca Lemire Bertrand</a>, <a class = "name" href='https://www.artstation.com/omend4' target="_blank"> Damian Buzugbe</a>, <a class = "name" href='https://www.artstation.com/jpsingh' target="_blank"> Jay-Paul Singh Mann Chaput</a>, <a class = "name" href='https://www.artstation.com/maximchenel' target="_blank"> Maxim Chenel</a>, <a class = "name" href='https://www.artstation.com/jamescharlick' target="_blank"> James Charlick</a>, <a class = "name" href='https://www.artstation.com/shininla' target="_blank"> Jeong Shin</a>.<br>
+Les textes viennent soit du <a href='https://forhonor.fandom.com/wiki/For_Honor_Wiki' target="_blank"> Wiki anglais de For Honor</a> (traduit par mes soins), soit du <a href='https://www.ubisoft.com/fr-fr/game/for-honor' target="_blank"> site officiel For Honor</a>, par Ubisoft.<br>
+L'univers présenté appartient à Ubisoft.<br>
+Si vous voulez réutiliser mon travail, merci de me créditer.</p>
+<br>
+<hr>
+<h1>Bonus</h1>
+<h3>Qui es-tu?</h3>
+<form action="action.php" method="post">
+    <p>Ton prénom : <input type="text" name="nom" required/></p>
+    <p>Ton âge : <input type="number" name="age" min ="15" max="100" required/></p>
+    <p>Ton sexe : <input type="text" list = "sexe" name="sexe" required pattern="[Hh]omme|[Ff]emme"/>
+        <datalist id = "sexe">
+            <option>Homme</option>
+            <option>Femme</option>
+        </datalist></p>
+    <p><input type="submit" value="Valider"></p>
+   </form>
+   
+<hr>
+<br>
+    <div class="footer">
+        <a href='#top' class = "button"> Retour en haut de la page</a>
+        <p class = "footer">Site créé par Guilhem BONNEFOUS, dans le cadre de sa deuxième année de licence en informatique à l'Université de Bordeaux, France.</p>
+        <p class = "footer">2022, <a class = "bonus" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target="_blank"> libre de droits.</a></p>
+      </div>  
+</body>

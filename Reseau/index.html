@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wiki For Honor</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <meta name = "author" content="Guilhem BONNEFOUS" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wiki For Honor">
+    <meta name="keywords" content="HTML5, CSS, JavaScript, PHP">
+    <link rel="stylesheet" href="./styles.css">
+    <script type = "text/javascript" src ="./script.js"></script>
+</head>
+
+<body>
+  <header>
+  <div class="container">
+    <img onmouseover = "titleHere()" id = "banner" src="./images/forhonor.jpg" alt="banner">
+    <div id = "title" class="centered"><h1>Wiki de For Honor</h1><br><h2>TP8 de Réseau 2022</h2></div>
+  </div>
+  </header>
+  <ul id = "navbar">
+    <li class = "navbar"><a class = "active" href="./index.html">Accueil</a></li>
+    <li class = "navbar"><a href="./ashfeld.php">Ashfeld</a></li>
+    <li class = "navbar"><a href="./valkenheim.php">Valkenheim</a></li>
+    <li class = "navbar"><a href="./myre.php">Myre</a></li>
+    <li class = "navbar"><a href="./wulin.php">Wu Lin</a></li>
+    <li class = "navbar"><a href="./outlanders.php">Les Étrangers</a></li>
+    <li id = "right" class = "navbar"><a href="./about.html" OnClick="ouvrirliens()">À propos</a></li>
+  </ul>
+  <p id = "top"></p>
+  <main>
+    <br>
+    <h2>Bienvenue sur ce wiki non-officiel sur le lore de For Honor !</h2>
+    <p>Sur ce site, vous aurez la possibilité de découvrir le lore de tous les personnages et des principales régions du jeu For Honor.</p>
+    <p><h3>Mais tout d'abord, qu'est-ce que For Honor ?</h3></p>
+    <p>Comme l'indique la <a href='https://fr.wikipedia.org/wiki/For_Honor' target="_blank"> page Wikipédia officielle</a>, For Honor est un jeu vidéo mêlant combat et beat them all, à la troisième personne. Il est développé par Ubisoft Montréal, et est disponible depuis le 14 février 2017.</p>
+    <p>Il se déroule dans un univers médieval, sur la terre d'Heathmoor, partagée par quatre principales factions : les Chevaliers d'Ashfeld, les Vikings de Valkenheim, les Samouraïs de Myre et les Wu Lin, sans terres. <br> Après un grand cataclysme provoquant une famine impitoyable, les plus grand guerriers de l'Histoire s'affrontent alors pour la domination d'Heathmoor, et la survie de leur faction.</p>
+    <img onmouseover = "mbigImg(this)" onmouseout = "mnormalImg(this)" id = "Fmap" src="./images/forhonormap.webp" alt="map">
+  </main>
+  <br>
+  <section>
+    <h3>Maintenant que vous connaissez un peu plus l'univers,</h3> <p>vous pouvez naviguer sur le site pour découvrir la riche histoire de For Honor.</p>
+  </section>
+      
+      <div class="header">
+        <h2>Les factions de For Honor :</h2>
+      </div>
+      
+      <div class="row">
+        <div id = "first" class="column">
+          <img onmouseover = "bigImg(this)" onmouseout = "normalImg(this)" id = "map" src="./images/knightemblem.webp" alt="Knights's emblem">
+          <ul><h3><a class = "knights" href='./ashfeld.php#heroes'> Chevaliers d'Ashfeld :</a></h3></ul>
+          <li><a class = "knights" href='./ashfeld.php#warden' > La Sentinelle</a></li>
+          <li><a class = "knights" href='./ashfeld.php#peacekeeper' > La Spadassin</a></li>
+          <li><a class = "knights" href='./ashfeld.php#gladiator' > Le Gladiateur</a></li>
+          <li><a class = "knights" href='./ashfeld.php#conqueror' > Le Fléau</a></li>
+          <li><a class = "knights" href='./ashfeld.php#vortiger' > Le Victimaire</a></li>
+          <li><a class = "knights" href='./ashfeld.php#lawbringer' > L'Émissaire</a></li>
+          <li><a class = "knights" href='./ashfeld.php#centurion' > Le Centurion</a></li>
+          <li><a class = "knights" href='./ashfeld.php#gryphon' > Le Griffon</a></li>
+          <li><a class = "knights" href='./ashfeld.php#warmonger' > La Belliciste</a></li>
+          <br>
+          <hr id = "knights">
+          <p id = "desc">La croyance des Chevaliers est que beaucoup, sinon toutes les ruines antiques ont été construites par leurs ancêtres, le Grand Empire Romain, qui s'est effondré durant le Cataclysme. Les Chevaliers avaient alors été dispersés pendant des siècles mais ont récemment commencé à se réunir sous une seule bannière, celle de la Légion de Fer. Cependant, il y a encore ceux qui choisissent de rassembler leur propre "Légion", et leur alliance avec la Légion de Fer est au mieux fragile.</p>
+        </div>
+        <div id = "second" class="column" >
+          <img onmouseover = "bigImg(this)" onmouseout = "normalImg(this)" id = "map" src="./images/vikingsemblem.webp" alt="Vikings's emblem">
+          <ul><h3><a class = "vikings" href='./valkenheim.php#heroes'> Vikings de Valkenheim :</a></h3></ul>
+          <li><a class = "vikings" href='./valkenheim.php#hersir' > Le Hersir</a></li>
+          <li><a class = "vikings" href='./valkenheim.php#shaman' > La Shaman</a></li>
+          <li><a class = "vikings" href='./valkenheim.php#berserker' > Le Berserker</a></li>
+          <li><a class = "vikings" href='./valkenheim.php#jarl' > Le Jarl</a></li>
+          <li><a class = "vikings" href='./valkenheim.php#jormungand' > La Jörmungand</a></li>
+          <li><a class = "vikings" href='./valkenheim.php#highlander' > Le Highlander</a></li>
+          <li><a class = "vikings" href='./valkenheim.php#valkyrie' > La Valkyrie</a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <br>
+          <hr id = "vikings">
+          <p id = "desc">Auparavant pensés disparu, les Vikings sont revenus  d'outre-mer - et en grand nombre. Ils sont venus prendre de nouvelles terres, piller, étendre les clans et récupérer leur ancienne patrie dans le Nord. <br>
+          Les Vikings sont le pouvoir incontesté des rivières et des mers. Dans leur quête pour obtenir l'approbation de leurs dieux à Valhalla, ils vivent pour la bataille et la gloire alors qu'ils recherchent des richesses et de nouvelles terres, détruisant tout sur leur passage pour les obtenir.</p>
+        </div>
+        <div id = "third" class="column" >
+          <img onmouseover = "bigImg(this)" onmouseout = "normalImg(this)" id = "map" src="./images/samouraisemblem.webp" alt="Samurais's emblem">
+          <ul><h3><a class = "samourais" href='./myre.php#heroes'> Samouraïs de Myre :</a></h3></ul>
+          <li><a class = "samourais" href='./myre.php#kensei' > Le Kensei</a></li>
+          <li><a class = "samourais" href='./myre.php#shinobi' > Le Shinobi</a></li>
+          <li><a class = "samourais" href='./myre.php#orochi' > L'Orochi</a></li>
+          <li><a class = "samourais" href='./myre.php#shugoki' > Le Shugoki</a></li>
+          <li><a class = "samourais" href='./myre.php#hitokiri' > L'Hitokiri</a></li>
+          <li><a class = "samourais" href='./myre.php#aramusha' > L'Aramusha</a></li>
+          <li><a class = "samourais" href='./myre.php#nobushi' > La Nobushi</a></li>
+          <li><a class = "samourais" href='./myre.php#kyoshin' > Le Kyoshin</a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <br>
+          <hr id = "samurais">
+          <p id = "desc">Les Samouraïs de l'Empire de l'Aube viennent d'une terre loin à l'est, et ils racontent l'histoire d'une patrie et d'un empereur qui ont été perdus par la mer et le feu lors du grand Cataclysme. Aujourd'hui, plus d'un millénaire plus tard, les guerriers nomades n'errent plus et se sont reconstruits sur une nouvelle terre avec un nouvel empereur. Après avoir été chassés de leurs foyers ancestraux et avoir reconstitué leurs forces, bien que puissantes et rusées, les Samouraïs se retrouvent encore largement en infériorité numérique face à leurs nouveaux voisins.</p>
+        </div>
+        <div id = "forth" class="column" >
+          <img onmouseover = "bigImg(this)" onmouseout = "normalImg(this)" id = "map" src="./images/wulinemblem.webp" alt="Wu Lin's emblem">
+          <ul><h3><a class = "wulin" href='./wulin.php#heroes'>Wu Lin sans terres :</a></h3></ul>
+          <li><a class = "wulin" href='./wulin.php#tiandi' > Le Tiandi</a></li>
+          <li><a class = "wulin" href='./wulin.php#nuxia' > La Nuxia</a></li>
+          <li><a class = "wulin" href='./wulin.php#jiangjun' > Le Jiang Jun</a></li>
+          <li><a class = "wulin" href='./wulin.php#shaolin' > Le Shaolin</a></li>
+          <li><a class = "wulin" href='./wulin.php#zhanhu' > Le Zhanhu</a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <br>
+          <hr id = "wulin">
+          <p id = "desc">La faction connue sous le nom de Wu Lin est composée de guerriers de la Chine ancienne, qui voyagent maintenant vers l'ouest pour se venger de la guerre, de la trahison et des tragédies personnelles.</p>
+        </div>
+        <div id = "fifth" class="column" >
+          <img onmouseover = "obigImg(this)" onmouseout = "onormalImg(this)" id = "outlanders" src="./images/outlandersemblem.png" alt="Outlanders's emblem">
+          <ul><h3><a class = "outlanders" href='./outlanders.php#heroes'>Les Étrangers :</a></h3></ul>
+          <li><a class = "outlanders" href='./outlanders.php#pirate' > La Pirate</a></li>
+          <li><a class = "outlanders" href='./outlanders.php#medjay' > Le Medjaÿ</a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <li class = "invi"><a class = "invi"></a></li>
+          <br>
+          <hr class = "outlanders">
+          <p id = "desc">Contrairement à ceux des quatre autres factions, les héros Étrangers sont des aventuriers libres qui n'ont aucun lien culturel entre eux. Ils se battent pour ceux qui leur sont fidèles ou qui les paient bien.</p>
+        </div>
+      </div>
+      <br>
+      <div class="footer">
+        <a href='#top' class = "button"> Retour en haut de la page</a>
+        <p class = "footer">Site créé par Guilhem BONNEFOUS, dans le cadre de sa deuxième année de licence en informatique à l'Université de Bordeaux, France.</p>
+        <p class = "footer">2022, <a class = "bonus" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target="_blank"> libre de droits.</a></p>
+      </div>  
+  </body>
+</html>

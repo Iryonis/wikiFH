@@ -1,0 +1,365 @@
+@font-face { font-family: Cardinal; src: url('./font/Cardinal.ttf'); } 
+
+body {
+    background-color:#000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    line-height: 25px;
+}
+
+p {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+pre {
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+a {
+    cursor: pointer;
+    color:#3498DB;
+}
+
+a.name{
+    text-decoration: none;
+}
+
+p#desc {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 170%;
+    margin-left: 10px;
+}
+
+h3{
+    margin-left: 15px;
+}
+
+a {
+    align-items: center; 
+}
+a:link{
+    color:#3498DB;
+}
+a:visited{
+    color: #3498DB;
+}
+a:hover{
+    color:#2874A6 ;
+}
+a:active{
+    color:#2874A6 ;
+}
+
+.button {
+    border:0.16em solid #000000;
+    border-radius:2em;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+a.button:hover{
+    border-color: rgba(255,255,255,1);
+}
+
+input:invalid {
+    background-color: #FF9780;
+}
+  
+  input:valid {
+    border: 1px solid black;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 1200px;
+    border-radius: 1px;
+    border:solid;
+}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.footer {
+    text-align: center;
+}
+
+p.footer {
+    margin-left: unset;
+}
+
+@media (max-width: 1230px) {
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .column {
+        width: 100%;
+        overflow: auto;
+        height: 750px;
+    }
+    #outlanders {
+        margin-left: 30%;
+    }
+    img#map {
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 975px) {
+    h1 {
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 110%;
+    }
+    #outlanders {
+        margin-left: 15%;
+    }
+    img#map {
+        margin-left: 30%;
+    }
+}
+
+
+li.invi {
+    color: #1B2631;
+}
+
+#first {
+    background-color: #1B2631 ;
+    color: #F6CE2C;
+}
+
+hr#knights {
+    border-color: #F6CE2C;
+}
+
+#second {
+    background-color: #1B2631 ;
+    color: #f14e4e;
+}
+
+hr#vikings {
+    border-color: #f14e4e;
+}
+
+#third {
+    background-color: #1B2631 ;
+    color: #04AA6D;
+}
+
+hr#samurais {
+    border-color: #04B7AA;
+}
+
+#forth {
+    background-color: #1B2631 ;
+    color: #9B59B6;
+}
+
+hr#wulin {
+    border-color: #9B59B6;
+}
+
+#fifth {
+    background-color: #1B2631 ;
+    color: #169DCA;
+}
+
+hr.outlanders {
+    border-color: #169DCA;
+}
+
+ul#navbar {
+    list-style-type: none;
+    margin: 0;
+    left: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3498DB ;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+  }
+
+li.navbar {
+    float: left;
+}
+
+  
+li.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li.navbar a:hover {
+    background-color: #2874A6;
+}
+
+.active {
+    background-color: #5DADE2;
+}
+
+#right {
+    float:right;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: Cardinal;
+    font-size: 250%;
+}
+
+#banner {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    opacity: 0.5;
+}
+
+#Fmap {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+#map {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    max-width: 200px;
+    height:auto;
+}
+
+#outlanders {
+    display: block;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+a.knights:link{
+    color : unset;
+    text-decoration: none;
+}
+a.knights:visited{
+    color : unset;
+}
+a.knights:hover{
+    color : #C4A423;
+}
+a.knights:active{
+    color : #C4A423;
+}
+
+a.vikings:link{
+    color : unset;
+    text-decoration: none;
+}
+a.vikings:visited{
+    color : unset;
+}
+a.vikings:hover{
+    color : #AB3A3A;
+}
+a.vikings:active{
+    color : #AB3A3A;
+}
+
+a.samourais:link{
+    color : unset;
+    text-decoration: none;
+}
+a.samourais:visited{
+    color : unset;
+}
+a.samourais:hover{
+    color : #057E51;
+}
+a.samourais:active{
+    color : #057E51;
+}
+
+a.wulin:link{
+    color : unset;
+    text-decoration: none;
+}
+a.wulin:visited{
+    color : unset;
+}
+a.wulin:hover{
+    color : #76448A;
+}
+a.wulin:active{
+    color : #76448A;
+}
+
+a.outlanders:link{
+    text-decoration: none;
+}
+
+a.bonus:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.bonus:visited{
+    color : #ffffff;
+}
+a.bonus:hover{
+    color : #ffffff;
+}
+a.bonus:active{
+    color : #ffffff;
+}
